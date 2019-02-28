@@ -1,0 +1,153 @@
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul,li {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  display: block;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  /*-moz-user-focus: none;*/
+  -moz-user-select: none;
+}
+body{
+  font-size: 14px;
+}
+.clearfix{
+  zoom:1;
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  visibility:hidden;
+  height:0;
+  clear:both;
+}
+
+.fl,.l{
+  float: left;
+}
+.weui-dialog__btn_primary  {
+  color: #f60 !important;
+}
+
+.fr,.r{
+  float: right;
+}
+/*margin-top*/
+.mt10{
+  margin-top: 10px;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.mt0{
+  margin-top: 0px;
+}
+/*padding-left*/
+.pl15{
+  padding-left: 15px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+button{
+  outline: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.vux-slider > .vux-indicator, .vux-slider .vux-indicator-right {
+  display: none;
+}
+
+.vux-swiper,
+.vux-slider > .vux-swiper{
+  overflow: visible !important;
+}
+
+.vux-slider {
+  height: 100%;
+}
+
+[contenteditable = "true"], input, textarea {
+  -webkit-user-select: auto !important;
+  -khtml-user-select: auto !important;
+  /*-moz-user-select: auto !important;*/
+  /*-ms-user-select: auto !important;*/
+  -o-user-select: auto!important;
+  resize:none;
+  outline: none;
+
+  /*user-select: auto !important;*/
+}
+
+.weui-input,.weui-label {
+  font-size: .9rem !important;
+  font-family: "微软雅黑" !important;
+  line-height: 2rem !important;
+  height: 2rem !important;
+}
+
+.weui-textarea {
+  font-size: .9rem !important;
+  font-family: "微软雅黑" !important;
+  line-height: 1.2rem !important;
+  padding-top: .3rem;
+}
+
+.inputBox span > p {
+  display: inline-block !important;
+}
